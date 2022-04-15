@@ -1,13 +1,25 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Portfolio from "./components/Portfolio";
+import Knowledgebase from "./components/Knowledgebase";
+import LandingPage from "./components/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Testing Netflify Live-loading from Git Push</p>
-      </header>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/knowledgebase" element={<Knowledgebase />} />
+        </Routes>
+      </Router>
+      {/* <LandingPage /> */}
     </div>
   );
 }

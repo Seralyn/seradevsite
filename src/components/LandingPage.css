@@ -1,0 +1,13 @@
+.landing-page {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 3rem;
+  background-color: rgb(71, 61, 61);
+  color: rgb(56, 228, 134);
+}
+
+.sera-image {
+  width: 20%;
+  border-radius: 18px;
+  box-shadow: 0 0 30px rgb(97, 218, 251);
+}
