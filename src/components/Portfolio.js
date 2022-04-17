@@ -15,33 +15,37 @@ export default function Portfolio() {
                     <h1 className="text-3xl">Portfolio</h1>
                 </div>
                 <div className="mt-10">
-                    <p>
+                    <p className="px-20">
                         Here are a few examples of my work. Some are mock-ups,
                         some are functioning apps, SPAs, etc.
                     </p>
                 </div>
             </div>
             <div className="inline-flex mt-20 justify-center flex-wrap">
-                <div className="w-96 mt-14 mx-5">
+                <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
                     <img src={goodman} alt="" />
                 </div>
-                <div className="w-96 mt-14 mx-5">
+                <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
                     <img src={foodsite} alt="" />
                 </div>
-                <div className="w-96 mt-14 mx-5">
+                <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
                     <img src={weatherscrp} alt="" />
                 </div>
-                <div className="w-96 mt-14 mx-5">
+                <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
                     <img src={letsconn} alt="" />
                 </div>
-                <div className="w-96 mt-14 mx-5">
+                <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
                     <img src={guessNum} alt="" />
                 </div>
-                <div className="w-96 mt-14 mx-5">
+                <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
                     <img src={mikeDB} alt="" />
                 </div>
-                <div className="w-96 mt-14 mx-5">Item</div>
-                <div className="w-96 mt-14 mx-5">Item</div>
+                <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
+                    Item
+                </div>
+                <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
+                    Item
+                </div>
             </div>
         </div>
     );
