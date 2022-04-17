@@ -1,19 +1,34 @@
-import React from "react";
-import "./Knowledgebase.css";
+import React from 'react';
+import './Knowledgebase.css';
 
 export default function Knowledgebase() {
-  return (
-    <div className="text-blue-300 flex flex-col items-center">
-      <div className="w-80 mt-32">
-        <h1 className="text-3xl">Knowledgebase</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta quasi
-          recusandae perspiciatis ratione hic assumenda mollitia molestiae
-          cupiditate necessitatibus at? Dolorum expedita ut, modi aperiam
-          assumenda nesciunt, debitis dignissimos asperiores inventore
-          quibusdam, sit incidunt aut sed sunt ad soluta adipisci.
-        </p>
-      </div>
-    </div>
-  );
+    // const frameworkImages = [
+    //     { imageName: 'ajax', width: 200 },
+    //     { imageName: 'jquery', width: 200 },
+    //     { imageName: 'bootstrap', width: 200 },
+    //     { imageName: 'tailwind', width: 200 },
+    //     { imageName: 'nodejs', width: 200 },
+    //     { imageName: 'sass', width: 200 },
+    //     { imageName: 'react', width: 200 },
+    //     { imageName: 'gsap', width: 200 },
+    // ];
+
+    // frameworkImages.map((img) => {
+    //     const capitalizedName = img.name[0].toUpperCase() + img.name.slice(1);
+    //     return `${capitalizedName} images - ${img.width}`;
+    // });
+
+    return (
+        <div className="text-blue-300 flex flex-col items-center">
+            <div className="w-96 mt-32">
+                <h1 className="text-3xl">Knowledgebase</h1>
+                <div className="mt-10">
+                    <p>
+                        Although I have spent some time with Python, Java, &
+                        Swift, my coding passion is mostly on the front-end.
+                    </p>
+                </div>
+            </div>
+        </div>
+    );
 }
