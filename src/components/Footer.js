@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <div>
             <div className="clear-both h-24 "></div>
-            <div className="w-full footer-color h-14 flex justify-center items-center text-white fixed bottom-0">
+            <div className="w-full footer-color h-20 md:h-14 text-sm md:text-md flex flex-wrap justify-center items-center text-white fixed bottom-0">
                 This site was created using
                 <img className="h-6 px-2" src={reactLogo} alt="" />
                 <a

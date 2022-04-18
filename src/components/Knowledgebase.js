@@ -29,7 +29,7 @@ export default function Knowledgebase() {
         <div className="text-blue-300 flex flex-col items-center">
             <div className="mt-32">
                 <h1 className="text-3xl">Knowledgebase</h1>
-                <div className="mt-10">
+                <div className="mt-10 px-10">
                     <p>
                         Although I have spent some time with Python, Java, &
                         Swift, my coding passion is mostly on the front-end.
