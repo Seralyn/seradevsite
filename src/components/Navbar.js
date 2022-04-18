@@ -8,7 +8,7 @@ import githubicon from '../img/github.png';
 
 const Navbar = () => {
     return (
-        <div className="navbar justify-around">
+        <div className="navbar justify-around fixed">
             <div class="dropdown bg-[rgba(33,33,33,0)]">
                 <label tabindex="0" class="btn m-1">
                     <svg

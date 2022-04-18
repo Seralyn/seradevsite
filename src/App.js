@@ -6,6 +6,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Knowledgebase from './components/Knowledgebase';
 import LandingPage from './components/LandingPage';
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                 </Routes>
             </Router>
             {/* <LandingPage /> */}
+            <Footer />
         </div>
     );
 }

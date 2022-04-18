@@ -34,6 +34,9 @@ export default function Knowledgebase() {
                         Although I have spent some time with Python, Java, &
                         Swift, my coding passion is mostly on the front-end.
                     </p>
+                    <p className="mt-8">
+                        These are some of the frameworks I've worked with:
+                    </p>
                 </div>
                 <div
                     id="framework-logo-container"

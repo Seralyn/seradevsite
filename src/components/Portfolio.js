@@ -7,6 +7,7 @@ import letsconn from '../img/portfolioSiteThumbs/letsConnectThumb.png';
 import guessNum from '../img/portfolioSiteThumbs/guessNumberThumb.png';
 import mikeDB from '../img/portfolioSiteThumbs/mikesDBThumb.png';
 import todo from '../img/portfolioSiteThumbs/toDoappThumb.png';
+import seranet from '../img/portfolioSiteThumbs/seranetThumb.png';
 
 export default function Portfolio() {
     return (
@@ -45,7 +46,7 @@ export default function Portfolio() {
                     <img src={todo} alt="" />
                 </div>
                 <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
-                    Item
+                    <img src={seranet} alt="" />
                 </div>
             </div>
         </div>
