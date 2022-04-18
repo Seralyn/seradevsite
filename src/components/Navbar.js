@@ -28,20 +28,26 @@ const Navbar = () => {
                 </label>
                 <ul
                     tabindex="0"
-                    class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52 "
+                    class="dropdown-content text-white menu p-2 shadow bg-base-100 rounded-box w-52 bg-[rgb(79,76,73)]"
                 >
                     <li className="rounded-lg">
-                        <a>About</a>
+                        <a className="hover:bg-orange-300" href="/about">
+                            About
+                        </a>
                     </li>
                     <li className="rounded-lg">
-                        <a>Knowledgebase</a>
+                        <a className="hover:bg-blue-300" href="/knowledgebase">
+                            Knowledgebase
+                        </a>
                     </li>
                     <li className="rounded-lg">
-                        <a>Portfolio</a>
+                        <a className="hover:bg-green-300" href="/portfolio">
+                            Portfolio
+                        </a>
                     </li>
                 </ul>
             </div>
-            <div className="">
+            <div className="hidden lg:flex">
                 <li className="text-slate-200 hover:text-white">
                     <Link to="/">Home</Link>
                 </li>
