@@ -63,10 +63,21 @@ const Navbar = () => {
             </div>
 
             <div className="flex justify-evenly w-40">
-                <img className="w-8 mr-4" alt="" src={githubicon} />
-                <img className="w-8 mr-4" alt="" src={fbicon} />
-                <img className="w-8 mr-4" alt="" src={instaicon} />
-                <img className="w-8 mr-4" alt="" src={linkedinicon} />
+                <a href="https://github.com/Seralyn" target="_blank">
+                    <img className="w-8 mr-4" alt="" src={githubicon} />
+                </a>
+                <a href="https://facebook.com/seralyncampbell" target="_blank">
+                    <img className="w-8 mr-4" alt="" src={fbicon} />
+                </a>
+                <a href="https://instagram.com/seralyncampbell" target="_blank">
+                    <img className="w-8 mr-4" alt="" src={instaicon} />
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/seralyn-campbell-0aba565/"
+                    target="_blank"
+                >
+                    <img className="w-8 mr-4" alt="" src={linkedinicon} />
+                </a>
             </div>
         </div>
     );
