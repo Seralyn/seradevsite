@@ -8,8 +8,8 @@ import githubicon from '../img/github.png';
 
 const Navbar = () => {
     return (
-        <div className="navbar justify-around fixed">
-            <div class="dropdown bg-[rgba(33,33,33,0)]">
+        <div className="navbar justify-around fixed z-50">
+            <div class="dropdown bg-[rgba(33,33,33,0)] z-50">
                 <label tabindex="0" class="btn m-1">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ const Navbar = () => {
                 </label>
                 <ul
                     tabindex="0"
-                    class="dropdown-content text-white menu p-2 shadow bg-base-100 rounded-box w-52 bg-[rgb(79,76,73)]"
+                    class="z-50 dropdown-content text-white menu p-2 shadow bg-base-100 rounded-box w-52 bg-[rgb(79,76,73)]"
                 >
                     <li className="rounded-lg">
                         <Link to="/about" className="hover:bg-orange-300">

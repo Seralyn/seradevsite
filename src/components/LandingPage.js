@@ -5,8 +5,8 @@ import logo from '../logo.svg';
 
 export default function LandingPage() {
     return (
-        <div className="flex flex-col items-center pt-44">
-            <img src={logo} className="App-logo" alt="logo" />
+        <div className="flex flex-col items-center pt-44 z-0">
+            <img src={logo} className="App-logo z-0 " alt="logo" />
             <div className="mt-32">
                 <p className="text-white">
                     If you like flashy colors, unicorns, rainbows, etc, feel
