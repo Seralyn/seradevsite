@@ -42,7 +42,7 @@ export default function About() {
                 <p className="mt-14">
                     <h1 className="text-3xl underline">Fun Facts</h1>
                     <div>
-                        <ul className="list-disc w-fit flex flex-col items-start">
+                        <ul className="list-disc w-fit flex flex-col justify-start items-start">
                             <li>
                                 I had 6 majors in college: Computer Science,
                                 Ancient History, Romance Languages, Wine, Fine

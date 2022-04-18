@@ -31,19 +31,19 @@ const Navbar = () => {
                     class="dropdown-content text-white menu p-2 shadow bg-base-100 rounded-box w-52 bg-[rgb(79,76,73)]"
                 >
                     <li className="rounded-lg">
-                        <a className="hover:bg-orange-300" href="/about">
+                        <Link to="/about" className="hover:bg-orange-300">
                             About
-                        </a>
+                        </Link>
                     </li>
                     <li className="rounded-lg">
-                        <a className="hover:bg-blue-300" href="/knowledgebase">
+                        <Link to="/knowledgebase" className="hover:bg-blue-300">
                             Knowledgebase
-                        </a>
+                        </Link>
                     </li>
                     <li className="rounded-lg">
-                        <a className="hover:bg-green-300" href="/portfolio">
+                        <Link to="/portfolio" className="hover:bg-green-300">
                             Portfolio
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
