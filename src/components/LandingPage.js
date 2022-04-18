@@ -5,7 +5,7 @@ import logo from '../logo.svg';
 
 export default function LandingPage() {
     return (
-        <div className="flex flex-col items-center mt-12">
+        <div className="flex flex-col items-center mt-44">
             <img src={logo} className="App-logo" alt="logo" />
         </div>
     );

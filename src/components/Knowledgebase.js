@@ -43,10 +43,10 @@ export default function Knowledgebase() {
                         <img className="h-44 w-44" src={bootstrap} alt="" />
                     </div>
                     <div>
-                        <img className="w-96" src={tailwind} alt="" />
+                        <img className="w-96 py-10" src={tailwind} alt="" />
                     </div>
                     <div>
-                        <img className="w-96" src={jquery} alt="" />
+                        <img className="w-96 py-10" src={jquery} alt="" />
                     </div>
                     <div>
                         <img className="h-32 w-44" src={sass} alt="" />
