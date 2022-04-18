@@ -19,7 +19,7 @@ export default function Footer() {
                 &
                 <img className="h-4 pl-2" src={tailwindLogo} alt="" />
                 <a
-                    href="http://tailwindcss.org"
+                    href="http://tailwindcss.com"
                     className="px-2 underline cursor-pointer"
                     target="_blank"
                 >
