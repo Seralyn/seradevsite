@@ -25,28 +25,62 @@ export default function Portfolio() {
             </div>
             <div className="inline-flex mt-20 justify-center flex-wrap">
                 <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
-                    <img src={goodman} alt="" />
+                    <a href="http://goodmanmechanical.net" target="_blank">
+                        <img src={goodman} alt="" />
+                    </a>
                 </div>
                 <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
-                    <img src={foodsite} alt="" />
+                    <a
+                        href="http://seralyn.net/public/portfolio/foodNinja/public/index.html"
+                        target="_blank"
+                    >
+                        <img src={foodsite} alt="" />
+                    </a>
                 </div>
                 <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
-                    <img src={weatherscrp} alt="" />
+                    <a
+                        href="http://seralyn.net/public/portfolio/WeatherScraper/weatherScraperHome.php"
+                        target="_blank"
+                    >
+                        <img src={weatherscrp} alt="" />
+                    </a>
                 </div>
                 <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
-                    <img src={letsconn} alt="" />
+                    <a
+                        href="http://seralyn.net/public/portfolio/LetsConnect/appLandingPage.html"
+                        target="_blank"
+                    >
+                        <img src={letsconn} alt="" />
+                    </a>
                 </div>
                 <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
-                    <img src={guessNum} alt="" />
+                    <a
+                        href="http://seralyn.net/public/portfolio/guessMyNumber/public/index.html"
+                        target="_blank"
+                    >
+                        <img src={guessNum} alt="" />
+                    </a>
                 </div>
                 <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
-                    <img src={mikeDB} alt="" />
+                    <a
+                        href="http://seralyn.net/public/mike/library.php"
+                        target="_blank"
+                    >
+                        <img src={mikeDB} alt="" />
+                    </a>
                 </div>
                 <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
-                    <img src={todo} alt="" />
+                    <a
+                        href="http://seralyn.net/public/portfolio/reactToDo/build/index.html"
+                        target="_blank"
+                    >
+                        <img src={todo} alt="" />
+                    </a>
                 </div>
                 <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
-                    <img src={seranet} alt="" />
+                    <a href="http://seralyn.net/" target="_blank">
+                        <img src={seranet} alt="" />
+                    </a>
                 </div>
             </div>
         </div>
