@@ -8,7 +8,7 @@ export default function About() {
             <div className="mt-32 w-full">
                 <h1 className="text-3xl">About</h1>
 
-                <div className="flex justify-center items-center mt-14">
+                <div className="flex flex-wrap justify-center items-center mt-14 mx-6">
                     <div className="">
                         <p className="py-2 text-xl">
                             Hello, My name is Seralyn.
@@ -20,7 +20,7 @@ export default function About() {
                             I like to design and develop websites.
                         </p>
                     </div>
-                    <div className="w-80 ml-20 rounded-3xl shadow-lg shadow-orange-300 overflow-hidden">
+                    <div className="w-80 rounded-3xl shadow-lg shadow-orange-300 overflow-hidden mt-8 ml-10 mr-14">
                         <img src={seraphoto} alt="" />
                     </div>
                 </div>
@@ -30,8 +30,7 @@ export default function About() {
                     I love creating- whether it be websites, visual art, music,
                     food, outfits- the act of creation makes me excited. I also
                     love technology. I began developing dinky little websites
-                    and rendering 3D scenes in Bryce3D in my early teens and
-                    have built every desktop PC I have ever owned.
+                    and rendering 3D scenes in Bryce3D in my early teens.
                 </p>
                 <p className="mt-6">
                     I have had a very non-linear career path. Before moving to
@@ -39,6 +38,30 @@ export default function About() {
                     a sommelier in NYC. After moving to Japan, I have had a
                     variety of freelance jobs in varying industries. As many do,
                     I began my life here in Tokyo as an English teacher.
+                </p>
+                <p className="mt-14">
+                    <h1 className="text-3xl underline">Fun Facts</h1>
+                    <div>
+                        <ul className="list-disc w-fit flex flex-col items-start">
+                            <li>
+                                I had 6 majors in college: Computer Science,
+                                Ancient History, Romance Languages, Wine, Fine
+                                Arts, Japanese
+                            </li>
+                            <li>
+                                I have built every desktop PC I've ever owned
+                            </li>
+                            <li>
+                                I live with three Leopard Geckos named: Tiamat,
+                                Arke, & Iris
+                            </li>
+                            <li>
+                                I am fluent in Japanese and speak Spanish
+                                conversationally
+                            </li>
+                            <li>Certified Open-Water Scuba Diver with PADI</li>
+                        </ul>
+                    </div>
                 </p>
             </div>
         </div>
