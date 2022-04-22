@@ -28,3 +28,7 @@ html {
 .btn {
     @apply bg-inherit text-white hover:bg-stone-600;
 }
+
+.btn-alt {
+    @apply bg-stone-500 text-white hover:bg-stone-600 rounded-lg w-fit p-2 hover:cursor-pointer;
+}

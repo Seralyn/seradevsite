@@ -1,6 +1,8 @@
 import React from 'react';
 import './About.css';
 import seraphoto from '../img/seralynProfile02.webp';
+import resume from '../docs/SeralynCampbell-CV-FrontendDev.pdf';
+import rirekisho from '../docs/履歴書-キャンベル.pdf';
 
 export default function About() {
     return (
@@ -19,6 +21,18 @@ export default function About() {
                         <p className="py-2 text-xl">
                             I like to design and develop websites.
                         </p>
+                        <div className="flex justify-around">
+                            <div className="btn-alt mt-10">
+                                <a href={resume} download>
+                                    Download CV
+                                </a>
+                            </div>
+                            <div className="btn-alt mt-10 mx-5">
+                                <a href={rirekisho} download>
+                                    日本語履歴書
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div className="w-80 rounded-3xl shadow-lg shadow-orange-300 overflow-hidden mt-8 ml-10 mr-14">
                         <img src={seraphoto} alt="" />
