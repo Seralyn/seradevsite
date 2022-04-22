@@ -10,7 +10,10 @@ export default function About() {
             <div className="mt-32 w-full">
                 <h1 className="text-3xl">About</h1>
 
-                <div className="flex flex-wrap justify-center items-center mt-14 mx-6">
+                <div className="flex flex-wrap flex-row-reverse justify-center items-center mt-14 mx-6">
+                    <div className="w-80 rounded-3xl shadow-lg shadow-orange-300 overflow-hidden mt-8 mb-10 ml-10 mr-14">
+                        <img src={seraphoto} alt="" />
+                    </div>
                     <div className="">
                         <p className="py-2 text-xl">
                             Hello, My name is Seralyn.
@@ -33,9 +36,6 @@ export default function About() {
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    <div className="w-80 rounded-3xl shadow-lg shadow-orange-300 overflow-hidden mt-8 ml-10 mr-14">
-                        <img src={seraphoto} alt="" />
                     </div>
                 </div>
             </div>
