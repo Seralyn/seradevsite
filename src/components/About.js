@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import seraphoto from '../img/seralyn.webp';
+import seraphoto from '../img/seralynProfile02.webp';
 
 export default function About() {
     return (
