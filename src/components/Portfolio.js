@@ -1,13 +1,13 @@
 import React from 'react';
 import './Portfolio.css';
-import goodman from '../img/portfolioSiteThumbs/goodmanMechicalThumb.png';
-import foodsite from '../img/portfolioSiteThumbs/foodSiteThumb.png';
-import weatherscrp from '../img/portfolioSiteThumbs/weatherScraperThumb.png';
-import letsconn from '../img/portfolioSiteThumbs/letsConnectThumb.png';
-import guessNum from '../img/portfolioSiteThumbs/guessNumberThumb.png';
-import mikeDB from '../img/portfolioSiteThumbs/mikesDBThumb.png';
-import todo from '../img/portfolioSiteThumbs/toDoappThumb.png';
-import seranet from '../img/portfolioSiteThumbs/seranetThumb.png';
+import goodman from '../img/portfolioSiteThumbs/goodmanMechicalThumb.webp';
+import foodsite from '../img/portfolioSiteThumbs/foodSiteThumb.webp';
+import weatherscrp from '../img/portfolioSiteThumbs/weatherScraperThumb.webp';
+import letsconn from '../img/portfolioSiteThumbs/letsConnectThumb.webp';
+import guessNum from '../img/portfolioSiteThumbs/guessNumberThumb.webp';
+import mikeDB from '../img/portfolioSiteThumbs/mikesDBThumb.webp';
+import todo from '../img/portfolioSiteThumbs/toDoappThumb.webp';
+import seranet from '../img/portfolioSiteThumbs/seranetThumb.webp';
 
 export default function Portfolio() {
     return (
