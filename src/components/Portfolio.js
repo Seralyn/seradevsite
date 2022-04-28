@@ -8,7 +8,7 @@ import guessNum from '../img/portfolioSiteThumbs/guessNumberThumb.webp';
 import mikeDB from '../img/portfolioSiteThumbs/mikesDBThumb.webp';
 import todo from '../img/portfolioSiteThumbs/toDoappThumb.webp';
 import seranet from '../img/portfolioSiteThumbs/seranetThumb.webp';
-import weatherDB from '..img/portfolioSiteThumbs/weather-dashboard.webp';
+import weatherDB from '../img/portfolioSiteThumbs/weather-dashboard.webp';
 
 export default function Portfolio() {
     return (
@@ -28,6 +28,19 @@ export default function Portfolio() {
                 <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
                     <a href="http://goodmanmechanical.net" target="_blank">
                         <img src={goodman} alt="" />
+                    </a>
+                </div>
+                <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
+                    <a href="http://seralyn.net/" target="_blank">
+                        <img src={seranet} alt="" />
+                    </a>
+                </div>
+                <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
+                    <a
+                        href="http://yourweathernow.netlify.app/"
+                        target="_blank"
+                    >
+                        <img src={weatherDB} alt="" />
                     </a>
                 </div>
                 <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
@@ -76,19 +89,6 @@ export default function Portfolio() {
                         target="_blank"
                     >
                         <img src={todo} alt="" />
-                    </a>
-                </div>
-                <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
-                    <a href="http://seralyn.net/" target="_blank">
-                        <img src={seranet} alt="" />
-                    </a>
-                </div>
-                <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
-                    <a
-                        href="http://yourweathernow.netlify.app/"
-                        target="_blank"
-                    >
-                        <img src={weatherDB} alt="" />
                     </a>
                 </div>
             </div>
