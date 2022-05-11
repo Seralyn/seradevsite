@@ -10,6 +10,7 @@ import todo from '../img/portfolioSiteThumbs/toDoappThumb.webp';
 import seranet from '../img/portfolioSiteThumbs/seranetThumb.webp';
 import weatherDB from '../img/portfolioSiteThumbs/weather-dashboard.webp';
 import codespaces from '../img/portfolioSiteThumbs/codespacesMockupThumb.webp';
+import dadjokes from '../img/portfolioSiteThumbs/dadjokesapi.webp';
 
 export default function Portfolio() {
     return (
@@ -98,6 +99,14 @@ export default function Portfolio() {
                         target="_blank"
                     >
                         <img src={todo} alt="" />
+                    </a>
+                </div>
+                <div className="w-96 mt-14 mx-5 transition-transform ease-linear hover:scale-110">
+                    <a
+                        href="http://seralyn.net/public/portfolio/api/dadJokes/index.html"
+                        target="_blank"
+                    >
+                        <img src={dadjokes} alt="" />
                     </a>
                 </div>
             </div>
