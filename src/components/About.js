@@ -5,6 +5,7 @@ import resume from '../docs/SeralynCampbell-CV-FrontendDev.pdf';
 import rirekisho from '../docs/履歴書-キャンベル.pdf';
 import eldenring from '../img/currently/Eldenring.png';
 import moonlighter from '../img/currently/Moonlighter.png';
+import roguelegacy from '../img/currently/roguelegacy2.jpeg'
 
 export default function About() {
     return (
@@ -61,7 +62,7 @@ export default function About() {
                     casting, promotions for a VR-eSports-blockchain startup, and
                     most recently the Tokyo 2020 Olympics.
                 </p>
-                <p>
+                <p className="mt-6">
                     I am an avid PC gamer. Tokyo apartments are small, but if I
                     still had the space/network to do so, I would be continuing
                     my other hobbies of: SCUBA diving, fencing, brewing,
@@ -82,9 +83,9 @@ export default function About() {
                         Currently Playing:
                         <div className="">
                             <img
-                                src={eldenring}
+                                src={roguelegacy}
                                 className="w-24 mt-3 inline mr-4 "
-                                alt="Elden Ring"
+                                alt="Rogue Legacy 2"
                             />
                             <img
                                 src={moonlighter}
@@ -107,6 +108,7 @@ export default function About() {
                                 <li>Chrome, Firefox</li>
                                 <li>MAMP</li>
                                 <li>CodeKit</li>
+                                <li>Bear</li>
                                 <li>#Rainbow</li>
                             </ul>
                         </div>
@@ -153,13 +155,17 @@ export default function About() {
                     </div>
                 </div>
                 <p className="mt-14">
-                    <h1 className="text-3xl underline">Fun Facts</h1>
+                    <h1 className="text-3xl underline mb-3">Fun Facts</h1>
                     <div>
                         <ul className="list-disc w-fit flex flex-col justify-start items-start">
                             <li>
                                 I had 6 majors in college: Computer Science,
                                 Ancient History, Romance Languages, Wine, Fine
                                 Arts, Japanese
+                            </li>
+                            <li>
+                                I was the first Western person to manage a
+                                Japanese celebrity
                             </li>
                             <li>
                                 I have built every desktop PC I've ever owned
